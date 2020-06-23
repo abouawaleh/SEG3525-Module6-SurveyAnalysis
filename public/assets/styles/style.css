@@ -5,12 +5,6 @@
 html {
   	background-color: #b3ffff;
 }
- 
-body {
-	width: 80%;
-  	margin: auto;
- 	padding: 20px 20px 20px 20px;
-}
 
 h1 {
 	font-size: 60px;
@@ -116,4 +110,4 @@ form .buttons button {
   border-radius: 3px;
 }
 form .buttons .submit {background-color: #00e6e6;} 
-form .buttons .submit:hover {background-color: ##006666;} 
+form .buttons .submit:hover {background-color: #006666;} 
