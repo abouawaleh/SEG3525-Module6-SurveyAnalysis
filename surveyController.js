@@ -47,8 +47,8 @@ module.exports = function(app){
         var ques3 = readData("ques3")
         var ques4 = readData("ques4")
         var ques5 = readData("ques5")
-        res.render('showResults', {results: [answers]});
-        console.log([answers]);
+        res.render('showResults', {results: [ques1, ques2, ques3, ques4, ques5]});
+        console.log([ques1, ques2, ques3, ques4, ques5]);
     });
 
     // when a user goes to localhost:3000/niceSurvey
