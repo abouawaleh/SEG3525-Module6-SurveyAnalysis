@@ -15,7 +15,7 @@ $(document).ready(function(){
             // Make the submit button red, disabled and saying Thank you
             $("#bb").css("background-color", "red");
             $("#bb").prop("disabled", "true");
-            $("#bb").text("Thank you!");
+            $("#bb").text("Merci!");
           }
         });
         return false;
