@@ -14,36 +14,90 @@
   
   <body>
 	
-	<div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
+  <div class="jumbotron text-center" id="survey">
     <h1>Survey</h1>
     <h3>Welcome to this Web Survey!</h3>
   </div>
-  <div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
+  <div class="container-md p-3 my-3 border bg-dark" id="survey">
     <form>
-      <h2> Question 1 </h2>
-      I like:<br>
-      <input type="text" name="fruit" placeholder="fruit name..." required />
-      <br>
-      <br>
-      <h2> Question 2 </h2>
-	    I like:<br>
-		  <input type="checkbox" name="color" value="Red"> Red<br>
-		  <input type="checkbox" name="color" value="Green"> Green<br>
-      <input type="checkbox" name="color" value="Blue"> Blue<br>
-      <br>
-      <h2>Question 3</h2>
-      I like:<br>
-      <select name="animal">
-			  <option value="Cat" selected="selected">Cat</option>
-			  <option value="Dog">Dog</option>
-			  <option value="Turtle">Turtle</option>
-      </select>
-      <br>
-      <br>
-      <button type="submit" class="btn btn-warning" id="bb">Submit</button>
-      <p id="thanks"></p>
+	<div class="container-md p-3 my-3">
+		<h2>Transport Canada</h2>
+		<a href="https://www.tc.gc.ca/en/transport-canada.html">
+			<img src="images/transport_canada.PNG" alt="https://www.tc.gc.ca/en/transport-canada.html" width="450" height="300">
+		</a>
+		<h2>Qu'en pensez-vous de l'interface usager de ce site de <a href="https://www.tc.gc.ca/en/transport-canada.html">Transport Canada</a>?</h2>
+		<br>
+		<br>
+	</div>
+	<div class="container-md p-3 my-3 border bg-light">
+		<h3>Qu'en pensez-vous de l'UI? Première impression!</h3><br>
+		<div class="custom-select">
+			<select class="custom-select" name="couleur">	      
+				<option value="Je l'aime" selected="selected">Je l'aime</option>
+				<option value="Pas mal">Pas mal</option>
+				<option value="Je ne l'aime pas">Je ne l'aime pas</option>
+			</select>
+		</div>
+	</div>
+	<br>
+	<div class="container-md p-3 my-3 border bg-light">
+		<h3>Selon toi, est-ce que le site semble fonctionner correctement</h3><br>
+		<input type="radio" class="container" name="fonction" value="Parfaitement">Parfaitement<br>
+		<input type="radio" class="container" name="fonction" value="La plupart des cas">La plupart des cas<br>
+		<input type="radio" class="container" name="fonction" value="Plus ou moins">Plus ou moins<br>
+		<input type="radio" class="container" name="fonction" value="Pas correctement">Pas correctement<br>
+	</div>
+	<br>			
+	<div class="container-md p-3 my-3 border bg-light">
+		<h3>Qu'aimez-vous de l'UI de ce site en particulier?</h3><br>
+		<input type="text" name="aime"><br>
+	</div>
+	<br>			
+	<div class="container-md p-3 my-3 border bg-light">
+		<h3>Ce site fait preuve de:</h3><br>
+		<input type="checkbox" name="Fiabilité" value="Fiabilité">Fiabilité<br>
+		<input type="checkbox" name="Efficacité" value="Efficacité">Efficacité<br>
+		<input type="checkbox" name="Sécurité" value="Sécurité">Sécurité<br>
+		<input type="checkbox" name="Cohérence" value="Cohérence">Cohérence<br>
+		<input type="checkbox" name="Fonctionnement correcte" value="Fonctionnement correcte">Fonctionnement correcte<br>
+		<input type="checkbox" name="Aucun" value="Aucun">Aucun<br>
+	</div>
+	<br>			
+	<div class="container-md p-3 my-3 border bg-light">
+		<h3>Ce site fait preuve d'un bon utilisabilité.</h3><br>
+		<ul class='likert'>
+      			<li>
+        			<input type="radio" name="likert" value="tres_daccord">
+        			<label>Très d'accord</label>
+      			</li>
+      			<li>
+        			<input type="radio" name="likert" value="daccord">
+        			<label>D'accord</label>
+      			</li>
+      			<li>
+        			<input type="radio" name="likert" value="neutre">
+        			<label>Neutre</label>
+      			</li>
+      			<li>
+      				<input type="radio" name="likert" value="desaccord">
+        			<label>Désaccord</label>
+      			</li>
+      			<li>
+        			<input type="radio" name="likert" value="tres_desaccord">
+        			<label>Très désaccord</label>
+      			</li>
+    		</ul>
+	</div>			
+	<br>
+	<h3>Commentaires:</h3><br>
+	<textarea rows="10" cols="165"></textarea>
+	<br>
+	<div class="buttons">
+		<button class="submit" type="button">Soumettre!</button>
+    	</div>
+	<br>
+	<! Site Web conçu par Aboubaker Ismael Awaleh</p>	
     </form>
-  </div>
 	<!-- <script src="/assets/action.js"></script> -->
   </body>
 </html> 
